@@ -10,7 +10,7 @@ const CountryDetail = () => {
             .then(response => response.json())
             .then(json => setDetail(json[0]))
             .catch(error => console.log(error))
-    }, [])
+    }, [country])
     const { name, flag , subregion, timezones, nativeName} = detail
     return (
         <div>
