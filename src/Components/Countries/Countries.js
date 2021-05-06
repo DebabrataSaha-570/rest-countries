@@ -15,7 +15,7 @@ const Countries = (props) => {
                     <p class="card-text">Population: {population}</p>
                     <p class="card-text">Region: {region}</p>
                     
-                    <Link to={`/about/${name}`}><a href="#" class="btn btn-primary">See country detail</a></Link>
+                    <Link to={`/about/${name}`}><a class="btn btn-primary">See country detail</a></Link>
                 </div>
             </div>
         </div>
